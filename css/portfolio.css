@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap');
+
+
+*{
+    text-decoration: none;
+    list-style:none;
+    margin: 0px;
+}
+
+body {
+    background-color:#d1e0f2;
+}
+
+.bigContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:50px;
+}
+
+a, li{
+    font-family: 'sora', 'sans-serif';
+    font-weight: bold;
+    color: #0c2746;
+    font-size: 12px;
+}
+
+header{
+    margin-left: 650px;
+}
+
+.navMenu ul{
+    display:flex;
+    align-items:center;
+}
+
+.navMenu li{
+    margin-right: 0px;
+    margin-top: 50px;
+
+}
+
+.homeButton{
+    background-color: #ff6234;
+    height: 45px;
+    width: 120px;
+    text-align: center;
+    align-items:center;
+    display:flex;
+    justify-content: center;
+}
+
+.blogButton{
+    background-color: #d4f780;
+    height: 45px;
+    width: 120px;
+    text-align: center;
+    align-items:center;
+    display:flex;
+    justify-content: center;
+}
+
+.contactButton{
+    background-color: #2282f8;
+    height: 45px;
+    width: 120px;
+    text-align: center;
+    align-items:center;
+    display:flex;
+    justify-content: center;
+}
+
+.homeButton:hover {
+    background-color: #f3edd5;
+}
+
+.blogButton:hover {
+    background-color: #f3edd5;
+    
+}
+
+.contactButton:hover {
+    background-color: #f3edd5;
+}
+
+.portfolioInfo{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/*.buttons{
+    font-size: 12px;
+    color: #0c2746;
+    font-family:'sora', 'sans-serif';
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    
+}
+
+
+.menu{
+    width: 1050px;
+}
+
+.nav{
+    
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 142px;
+    margin-bottom: 0px;
+
+}
+
+.home{
+
+    background-color: #ff6234;
+    height: 45px;
+    width: 120px;
+    border: none;
+    padding: 10px, 25px;
+}
+
+.home:hover{
+    background-color: #f3edd5;
+}
+
+.contactMe{
+    background-color: #2286fc;
+    height: 45px;
+    width: 120px;
+    border: none;
+    padding: 10px, 25px;
+
+}
+
+.contactMe:hover{
+    background-color: #d4f780;
+}*/
+
+.box1{
+    height: 550px;
+    width: 350px;
+    background-color: #2286fc;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    background-image: url(../images/texture.jpg); 
+    background-position: center;
+    background-size: cover;
+}
+
+.smalltext{
+    font-size: 16px;
+    font-family: 'Abhaya Libre', serif; 
+    margin-bottom: 20px;
+    color: #0c2746;
+}
+
+.bigtext{
+    font-family: 'Syne', sans-serif;
+    font-size:60px;
+    margin: 0px;
+    color: #0c2746;
+}
+
+.box2{
+    height: 550px;
+    width: 350px;
+    background-color: white;
+}
+
+.profileImg{
+    background-image: url(../images/profile.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size: cover;
+
+
+}
+
+.box3{
+    height: 550px;
+    width: 350px;
+    background-color: #0c2746;
+}
+
+.socialmediaIcons{
+    display: flex;
+    justify-content: center;
+}
+
+
+.icon{
+
+    height: 35px;
+    width: 35px;
+    margin: 15px;
+
+}
+
+.longtext{
+    font-size: 11px;
+    font-family:'sora', 'sans-serif';
+    color: #f3edd5;
+    margin: 30px;
+    font-weight: lighter;
+}
+
+.subtitle{
+    font-size: 20px;
+    font-family:'Abhaya Libre', serif;
+    font-weight:bold;
+    color: #f3edd5;
+    
+}
+
+.aboutmeInfo{
+    margin: 30px;
+    margin-top: 100px;
+}
